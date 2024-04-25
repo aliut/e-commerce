@@ -3,52 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Homepage</title>
+    <title>Homepage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
         }
 
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #fff;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
-            color: #333;
+            text-align: center;
         }
 
         p {
-            color: #666;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .button:hover {
-            background-color: #0056b3;
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
     <div class="container">
-        <h1>Welcome to My Basic Homepage this is added more.</h1>
-        <p>This is a simple example of a homepage using HTML and CSS.</p>
-        <p>Feel free to explore!</p>
-        <a href="#" class="button">Learn More</a>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non libero magna. Sed vehicula ante sit amet luctus sollicitudin.</p>
+        <p>Nullam aliquam ullamcorper diam ut interdum. Nulla sed metus ac dolor sollicitudin facilisis. Mauris hendrerit, sem et faucibus venenatis, urna turpis tincidunt lorem, nec bibendum mauris augue nec leo.</p>
+        <p>Vivamus auctor nisi quis metus feugiat congue. Cras sit amet nulla sed purus sodales lacinia. Nunc volutpat fringilla arcu, sit amet vehicula ex blandit id.</p>
     </div>
 </body>
 </html>
